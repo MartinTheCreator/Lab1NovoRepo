@@ -1,0 +1,64 @@
+    1  git init
+    2  cat > l1.txt
+    3  cat l1.txt
+    4  git config --global user.email marto_7@yahoo.com
+    5  git config --global user.name "MartinTheCreator"
+    6  git add .
+    7  git commit -m "Initial Commit"
+    8  cat >> l1.txt 
+    9  cat l1.txt 
+   10  cat l1.txt 
+   11  ls
+   12  pwd
+   13  cd ..
+   14  ls
+   15  mkdir lab1novorepo
+   16  cd lab1novorepo/
+   17  ls
+   18  echo "# Lab1NovoRepo" >> README.md
+   19  ls
+   20  cat README.md 
+   21  git init
+   22  git commit -m "first commit"
+   23  git add .
+   24  git commit -m "first commit"
+   25  git remote add origin https://github.com/MartinTheCreator/Lab1NovoRepo.git
+   26  git push -u origin master
+   27  git push -u origin master
+   28  git push -u origin master
+   29  pwd
+   30  cd ..
+   31  ls
+   32  cd lab1
+   33  ls
+   34  pwd
+   35  git add .
+   36  git commit -m "First commit"
+   37  git remote add origin https://github.com/MartinTheCreator/Lab1NovoRepo.git
+   38  git push -u origin master
+   39  history
+   40  ls
+   41  nano l1.txt 
+   42  git log
+   43  git diff
+   44  git log
+   45  git diff
+   46  git reset --hard
+   47  cat l1.txt 
+   48  git checkout -b "logging"
+   49  git checkout logging
+   50  git add .
+   51  git commit -m "New branch commit"
+   52  git push 
+   53  git push origin logging
+   54  git checkout master
+   55  git merge logging
+   56  git branch logging
+   57  git checkout logging
+   58  git merge master
+   59  git push origin logging:master
+   60  git branch -b allcomands
+   61  git branch allcomands
+   62  git branch
+   63  git checkout allcomands
+   64  history > commands.txt
